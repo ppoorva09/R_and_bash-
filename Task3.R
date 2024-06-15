@@ -20,7 +20,7 @@ chrom_count <- filamb_data %>%
   count(chromosome)
 # view(chrom_count)
 
-# To ensure that the chromosomes are plotted in a specific order on the x-axis of the bar plot created
+# To ensure that the chromosomes are plotted in a specific order on the x-axis of the plot
 chrom_count$chromosome <- factor(chrom_count$chromosome, 
                                                levels = c(as.character(1:22), "X", "Y", "MT", "Un"))
 # view(chrom_count)
