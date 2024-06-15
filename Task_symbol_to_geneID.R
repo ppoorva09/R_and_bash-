@@ -9,7 +9,7 @@ library(data.table)
 getwd() #place the dataset in the working directory for ease of use.
 
 # the data being very large so using fread
-file_path <- "Homo_sapiens.gene_info.gz"  # Adjust the file path if necessary
+file_path <- "Homo_sapiens.gene_info.gz"  
 gene_info <- fread(file_path, sep = "\t", header = TRUE)
 class(gene_info)
 
