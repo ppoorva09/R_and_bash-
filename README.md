@@ -1,5 +1,7 @@
 # R_and_bash_Code
 
+The repository contains small but practical bioinformatics and data science tasks implemented in R and Bash. The scripts written demonstrate real-world skills such as gene ID mapping, sequence statistics, and genomic data visualization.
+
 ### Task_symbol_to_geneID:
 Task 1.1:
 Mapping of Symbol and Synonym to GeneId
